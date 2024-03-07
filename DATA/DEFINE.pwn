@@ -5,15 +5,15 @@
 #define SERVER_BOT      "Greenwich Monitoring"
 #define SERVER_NAME     "Greenwich Roleplay"
 
-// #define		MYSQL_HOST 			"204.10.192.68"
-// #define		MYSQL_USER 			"u268_IT7w4DsyBj"
-// #define		MYSQL_PASSWORD 		"AiAsPVQFrcZ7@B!P+zsk=IJ8"
-// #define		MYSQL_DATABASE 		"s268_greenwich_samp" 
+#define		MYSQL_HOST 			"204.10.192.68"
+#define		MYSQL_USER 			"u268_IT7w4DsyBj"
+#define		MYSQL_PASSWORD 		"AiAsPVQFrcZ7@B!P+zsk=IJ8"
+#define		MYSQL_DATABASE 		"s268_greenwich_samp" 
 
-#define		MYSQL_HOST 			"test"
-#define		MYSQL_USER 			"test"
-#define		MYSQL_PASSWORD 		""
-#define		MYSQL_DATABASE 		"gwrp"
+// #define		MYSQL_HOST 			"localhost"
+// #define		MYSQL_USER 			"root"
+// #define		MYSQL_PASSWORD 		""
+// #define		MYSQL_DATABASE 		"gwrp"
 
 // how many seconds until it kicks the player for taking too long to login
 #define		SECONDS_TO_LOGIN 	200
