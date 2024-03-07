@@ -1,6 +1,6 @@
 //----------[ Dynamic Locker System ]-----------
 
-#define MAX_LOCKERS	10
+#define MAX_LOCKERS	100
 
 enum lockerinfo
 {
