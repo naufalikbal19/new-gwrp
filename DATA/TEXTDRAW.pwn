@@ -1,6 +1,8 @@
 //OX target system
-new Text: ox_active[4];
-new Text: ox_pasive[2];
+// new Text: ox_active[4];
+// new Text: ox_pasive[2];
+new PlayerText: ox_pasive[MAX_PLAYERS][2];
+new PlayerText: ox_active[MAX_PLAYERS][2];
 //OX target system
 //factionlist
 new PlayerText:factionListTD[MAX_PLAYERS][10];
@@ -187,70 +189,52 @@ new PlayerText:DeathTD[MAX_PLAYERS][8];
 new PlayerText: PomTD[MAX_PLAYERS][26];
 CreatePlayerTextDraws(playerid)
 {
-	//ox system start//
-	ox_pasive[0] = TextDrawCreate(290.000, 206.000, "LD_BEAT:chit");
-	TextDrawTextSize(ox_pasive[0], 46.000, 28.000);
-	TextDrawAlignment(ox_pasive[0], 1);
-	TextDrawColor(ox_pasive[0], -1684300966);
-	TextDrawSetShadow(ox_pasive[0], 0);
-	TextDrawSetOutline(ox_pasive[0], 0);
-	TextDrawBackgroundColor(ox_pasive[0], 255);
-	TextDrawFont(ox_pasive[0], 4);
-	TextDrawSetProportional(ox_pasive[0], 1);
+	//ox system start//	
+	ox_pasive[playerid][0] = CreatePlayerTextDraw(playerid, 290.000, 206.000, "LD_BEAT:chit");
+	PlayerTextDrawTextSize(playerid, ox_pasive[playerid][0], 46.000, 28.000);
+	PlayerTextDrawAlignment(playerid, ox_pasive[playerid][0], 1);
+	PlayerTextDrawColor(playerid, ox_pasive[playerid][0], -1684300966);
+	PlayerTextDrawSetShadow(playerid, ox_pasive[playerid][0], 0);
+	PlayerTextDrawSetOutline(playerid, ox_pasive[playerid][0], 0);
+	PlayerTextDrawBackgroundColor(playerid, ox_pasive[playerid][0], 255);
+	PlayerTextDrawFont(playerid, ox_pasive[playerid][0], 4);
+	PlayerTextDrawSetProportional(playerid, ox_pasive[playerid][0], 1);
 
-	ox_active[0] = TextDrawCreate(290.000, 206.000, "LD_BEAT:chit");
-	TextDrawTextSize(ox_active[0], 46.000, 28.000);
-	TextDrawAlignment(ox_active[0], 1);
-	TextDrawColor(ox_active[0], -1684300966);
-	TextDrawSetShadow(ox_active[0], 0);
-	TextDrawSetOutline(ox_active[0], 0);
-	TextDrawBackgroundColor(ox_active[0], 255);
-	TextDrawFont(ox_active[0], 4);
-	TextDrawSetProportional(ox_active[0], 1);
 
-	ox_active[1] = TextDrawCreate(306.000, 211.000, "LD_BEAT:cring");
-	TextDrawTextSize(ox_active[1], 14.000, 17.000);
-	TextDrawAlignment(ox_active[1], 1);
-	TextDrawColor(ox_active[1], 1582855167);
-	TextDrawSetShadow(ox_active[1], 0);
-	TextDrawSetOutline(ox_active[1], 0);
-	TextDrawBackgroundColor(ox_active[1], 255);
-	TextDrawFont(ox_active[1], 4);
-	TextDrawSetProportional(ox_active[1], 1);
-	TextDrawSetSelectable(ox_active[1], 1);
+	ox_active[playerid][0] = CreatePlayerTextDraw(playerid, 342.000, 208.000, "LD_SPAC:white");
+	PlayerTextDrawTextSize(playerid, ox_active[playerid][0], 90.000, 25.000);
+	PlayerTextDrawAlignment(playerid, ox_active[playerid][0], 1);
+	PlayerTextDrawColor(playerid, ox_active[playerid][0], 1515561266);
+	PlayerTextDrawSetShadow(playerid, ox_active[playerid][0], 0);
+	PlayerTextDrawSetOutline(playerid, ox_active[playerid][0], 0);
+	PlayerTextDrawBackgroundColor(playerid, ox_active[playerid][0], 255);
+	PlayerTextDrawFont(playerid, ox_active[playerid][0], 4);
+	PlayerTextDrawSetProportional(playerid, ox_active[playerid][0], 1);
 
-	ox_active[2] = TextDrawCreate(342.000, 208.000, "LD_SPAC:white");
-	TextDrawTextSize(ox_active[2], 90.000, 25.000);
-	TextDrawAlignment(ox_active[2], 1);
-	TextDrawColor(ox_active[2], 1515561266);
-	TextDrawSetShadow(ox_active[2], 0);
-	TextDrawSetOutline(ox_active[2], 0);
-	TextDrawBackgroundColor(ox_active[2], 255);
-	TextDrawFont(ox_active[2], 4);
-	TextDrawSetProportional(ox_active[2], 1);
+	ox_active[playerid][1] = CreatePlayerTextDraw(playerid, 346.000, 216.000, "ACTION");
+	PlayerTextDrawLetterSize(playerid, ox_active[playerid][1], 0.187, 0.898);
+	PlayerTextDrawTextSize(playerid, ox_active[playerid][1], 428.000, 15.000);
+	PlayerTextDrawAlignment(playerid, ox_active[playerid][1], 1);
+	PlayerTextDrawColor(playerid, ox_active[playerid][1], -1);
+	PlayerTextDrawUseBox(playerid, ox_active[playerid][1], 1);
+	PlayerTextDrawBoxColor(playerid, ox_active[playerid][1], 255);
+	PlayerTextDrawSetShadow(playerid, ox_active[playerid][1], 0);
+	PlayerTextDrawSetOutline(playerid, ox_active[playerid][1], 1);
+	PlayerTextDrawBackgroundColor(playerid, ox_active[playerid][1], 255);
+	PlayerTextDrawFont(playerid, ox_active[playerid][1], 1);
+	PlayerTextDrawSetProportional(playerid, ox_active[playerid][1], 1);
+	PlayerTextDrawSetSelectable(playerid, ox_active[playerid][1], 1);
 
-	ox_active[3] = TextDrawCreate(346.000, 216.000, "ACTION");
-	TextDrawLetterSize(ox_active[3], 0.188, 0.898);
-	TextDrawTextSize(ox_active[3], 428.000, 15.000);
-	TextDrawAlignment(ox_active[3], 1);
-	TextDrawColor(ox_active[3], -1);
-	TextDrawSetShadow(ox_active[3], 0);
-	TextDrawSetOutline(ox_active[3], 1);
-	TextDrawBackgroundColor(ox_active[3], 255);
-	TextDrawFont(ox_active[3], 1);
-	TextDrawSetProportional(ox_active[3], 1);
-	TextDrawSetSelectable(ox_active[3], 1);
-
-	ox_pasive[1] = TextDrawCreate(306.000, 211.000, "LD_BEAT:cring");
-	TextDrawTextSize(ox_pasive[1], 14.000, 17.000);
-	TextDrawAlignment(ox_pasive[1], 1);
-	TextDrawColor(ox_pasive[1], 1582855167);
-	TextDrawSetShadow(ox_pasive[1], 0);
-	TextDrawSetOutline(ox_pasive[1], 0);
-	TextDrawBackgroundColor(ox_pasive[1], 255);
-	TextDrawFont(ox_pasive[1], 4);
-	TextDrawSetProportional(ox_pasive[1], 1);
-	TextDrawSetSelectable(ox_pasive[1], 1);
+	ox_pasive[playerid][1] = CreatePlayerTextDraw(playerid, 306.000, 211.000, "LD_BEAT:cring");
+	PlayerTextDrawTextSize(playerid, ox_pasive[playerid][1], 14.000, 17.000);
+	PlayerTextDrawAlignment(playerid, ox_pasive[playerid][1], 1);
+	PlayerTextDrawColor(playerid, ox_pasive[playerid][1], 1582855167);
+	PlayerTextDrawSetShadow(playerid, ox_pasive[playerid][1], 0);
+	PlayerTextDrawSetOutline(playerid, ox_pasive[playerid][1], 0);
+	PlayerTextDrawBackgroundColor(playerid, ox_pasive[playerid][1], 255);
+	PlayerTextDrawFont(playerid, ox_pasive[playerid][1], 4);
+	PlayerTextDrawSetProportional(playerid, ox_pasive[playerid][1], 1);
+	PlayerTextDrawSetSelectable(playerid, ox_pasive[playerid][1], 1);
 
 	//ox system end//
 	//FactionList

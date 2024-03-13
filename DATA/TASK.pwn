@@ -218,5 +218,212 @@ ptask playerTimer[1000](playerid)
 		pData[playerid][pCurrMinutes] = 0;
 		pData[playerid][pCurrHours] ++;
 	}
+	//ox sytem start//
+	if(IsPlayerInRangeOfPoint(playerid, 3, 494.4636,1293.1964,10.0437))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 498.3599,1296.6460,10.0437))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 498.3147,1301.6930,10.0437))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 570.088989,1219.789794,11.711267))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 354.502258,-2088.541748,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 361.865936,-2088.551513,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 367.337066,-2088.360107,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 369.805786,-2088.505859,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 375.105041,-2088.289306,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 383.510070,-2088.362304,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 390.969543,-2088.627685,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 396.217071,-2088.449218,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 398.711486,-2088.480468,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 1, 403.764190,-2088.797119,7.835937))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 2351.77,-653.31,128.05)) //creategun
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -887.2399,-479.9101,826.8417))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -893.2037,-490.6880,826.8417))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -898.6295,-500.8337,826.8417))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -927.1517,-486.4165,826.8417))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -920.0016,-468.0568,826.8417))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 34.4547,1365.0729,9.1719))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 34.9240,1379.4988,9.1719))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 34.9276,1351.1335,9.1719))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -2043.9037,-2327.0183,30.6250))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -2000.2443,-2453.1018,30.5975))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -2001.2886,-2465.2129,31.2360))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -1989.6028,-2464.2825,31.0153))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -1980.7644,-2486.7327,30.8771))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -1993.8621,-2494.8857,32.8715))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, -2026.6808,-2480.3613,31.8755))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 1275.2433,-1551.5659,13.5769))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 1985.1968,-2054.9270,13.5938))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 3, 1375.7587,-1893.4819,13.5901))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 2318.562744,-2070.840576,17.644752))//penjahit
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 2321.482421,-2082.888671,17.652400))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 2317.667236,-2082.262939,17.694538))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 2319.653320,-2084.508544,17.652679))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 1925.521972,170.046707,37.281250))
+	{
+		callcmd::oxs(playerid, "");
+		
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 2313.817382,-2075.185546,17.644004))
+	{
+		callcmd::oxs(playerid, "");
+	}
+	else if(IsPlayerInRangeOfPoint(playerid, 2, 1302.113769,-1876.048583,13.763982))
+	{
+		callcmd::oxs(playerid, "");
+	}
+	else 
+	{
+		PlayerTextDrawHide(playerid, ox_pasive[playerid][0]);
+		PlayerTextDrawHide(playerid, ox_pasive[playerid][1]);
+		PlayerTextDrawHide(playerid, ox_active[playerid][0]);
+		PlayerTextDrawHide(playerid, ox_active[playerid][1]);
+	}
+	//ox system end//
 	return 1;
 }

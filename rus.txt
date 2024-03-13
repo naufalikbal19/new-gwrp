@@ -1,4 +1,4 @@
-c:\new greenwich project\New_folder\gamemodes\main.pwn(15) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CreateDamageLog"
-c:\new greenwich project\New_folder\gamemodes\main.pwn(46) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Player_ResetDamageLog"
+C:\new greenwich project\New_folder\gamemodes\main.pwn(15) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "CreateDamageLog"
+C:\new greenwich project\New_folder\gamemodes\main.pwn(46) : èäåíòèôèêàòîð íå èñïîëüçóåòñÿ: "Player_ResetDamageLog"
 Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
 

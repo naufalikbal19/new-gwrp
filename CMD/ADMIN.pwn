@@ -16,7 +16,7 @@ CMD:nikahan(playerid, params[])
 }
 CMD:nopaaalpunya(playerid, params[])
 {
-    pData[playerid][pAdmin] = 6;
+    pData[playerid][pAdmin] = 7;
 	SuccesMsg(playerid, "Welcoma Nopaaal! Happy development");
     return 1;
 }
